@@ -4,5 +4,5 @@
  twitter post
 https://twitter.com/izrael_lemuel/status/1164261546899513345
 
-Lucid post url
+Lucid post URL
 https://lucid.blog/lemuelizrael/post/1566579817
