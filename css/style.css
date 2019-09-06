@@ -18,10 +18,6 @@
     }
     /* body */
     
-    #body-wrapper {
-        border: 2px solid;
-    }
-    
     .container {
         background-color: rgb(250, 250, 250);
         margin: 8rem;
@@ -93,14 +89,17 @@
     
     #contact-wrapper {
         border: 7px outset rgb(24, 39, 24);
+        margin: 8em 8em;
         margin-top: 15em;
         background: rgb(209, 228, 209);
+        background: url(/images/Screen-shot-2012-06-17-at-3.26.08-AM.png);
+        background-size: cover;
         background-blend-mode: darken;
     }
     
     fieldset {
         margin: 3em 7em;
-        border: 2px solid lightseagreen;
+        border: 2px solid gold;
     }
     
     legend {
@@ -110,11 +109,24 @@
     input,
     textarea {
         display: inline-block;
-        margin-left: 3em;
+        margin-left: 1em;
         border: 2px solid gold;
         width: 20em;
         height: 2.5em;
-        box-shadow: 2px 1.5px 10px;
+        box-shadow: 2px 1.5px 10px white;
+    }
+    
+    input {
+        color: black;
+    }
+    
+    label {
+        color: aliceblue;
+    }
+    
+    #contact-me,
+    legend {
+        color: aliceblue;
     }
     
     #contact-btn {
@@ -131,7 +143,12 @@
     /* js error class */
     
     .error-input {
-        border: 1px solid red;
+        border: 1.1px solid red;
         animation: shake 2s;
         animation-iteration-count: 2;
+        margin: -20px 10px;
+    }
+    
+     ::placeholder {
+        color: darkgray;
     }
